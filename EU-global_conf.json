@@ -1,16 +1,3 @@
-/*
-*
-*	The Things Network: EU Region Configuration Parameters
-*
-*	Note: This only contains parameters that should not
-*	be overridden by either TTN or regulatory policies.
-*
-*	Change Log:
-*		   2016-03-22 Created (rayozzie)
-*                  2016-04-15 Server settings for EU (johanstokking)
-*
-*/
-
 {
 	"SX1301_conf": {
 		"lorawan_public": true,
@@ -213,8 +200,8 @@
 		"serv_port_down": 1700,
 		"servers": [ {
 			"server_address": "router.eu.thethings.network",
-			"serv_port_up": 1700, 
-			"serv_port_down": 1700, 
+			"serv_port_up": 1700,
+			"serv_port_down": 1700,
 			"serv_enabled": true
 		} ]
 	}
