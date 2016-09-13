@@ -11,3 +11,5 @@ Due to the difficulty of updating gateways in the field, we recommend that this 
 Each gateway should be configured with a two-letter "region code" from which the configuration file name can be derived and subsequently loaded using HTTPS. For example, if the configured region is "EU", the gateway will then load and initialize the gateway/s "global_conf.json" file (i.e. using CURL) from: 
 
 https://raw.githubusercontent.com/TheThingsNetwork/gateway-conf/master/EU-global_conf.json
+
+NOTE: These config files cannot be used with the poly_pkt_fwd for MultiTech Conduits without modifications! The forwarder will not start/run when attempting to use the files as they are.
