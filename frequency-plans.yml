@@ -1,0 +1,28 @@
+EU_863_870:
+  description: Europe 868MHz
+  base_freq: 868
+  global_conf: EU-global_conf.json
+
+US_902_928:
+  description: United States 915MHz
+  base_freq: 915
+  global_conf: US-global_conf.json
+
+CN_779_787:
+
+EU_433:
+  description: Europe 433MHz
+  base_freq: 433
+
+AU_915_928:
+  description: Australia 915MHz
+  base_freq: 915
+  global_conf: AU-global_conf.json
+
+CN_470_510:
+
+AS_923:
+  base_freq: 915
+
+KR_920_923:
+  base_freq: 915
