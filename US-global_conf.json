@@ -3,12 +3,16 @@
 		"lorawan_public": true,
 		"clksrc": 1,
 		"clksrc_desc": "radio_1 provides clock to concentrator",
+		"antenna_gain": 0,
+		"antenna_gain_desc": "antenna gain, in dBi",
 		"radio_0": {
 			"enable": true,
 			"type": "SX1257",
 			"freq": 904200000,
 			"rssi_offset": -166.0,
-			"tx_enable": true
+			"tx_enable": true,
+			"tx_freq_min": 902000000,
+			"tx_freq_max": 928000000
 		},
 		"radio_1": {
 			"enable": true,
