@@ -24,5 +24,15 @@ CN_470_510:
 AS_923:
   base_freq: 915
 
+AS_920_923:
+  description: Asia 920-923MHz
+  base_freq: 915
+  global_conf: AS1-global_conf.json
+
+AS_923_925:
+  description: Asia 923-925MHz
+  base_freq: 915
+  global_conf: AS2-global_conf.json
+
 KR_920_923:
   base_freq: 915
