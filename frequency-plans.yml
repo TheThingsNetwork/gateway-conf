@@ -38,3 +38,8 @@ KR_920_923:
   description: Korea 920-923MHz
   base_freq: 915
   global_conf: KR-global_conf.json
+
+IN_865_867:
+  description: India 865-867MHz
+  base_freq: 868
+  global_conf: IN-global_conf.json
