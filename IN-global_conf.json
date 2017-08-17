@@ -1,7 +1,7 @@
 {
 	"SX1301_conf": {
 		"lorawan_public": true,
-		"clksrc": 0,
+		"clksrc": 1,
 		"clksrc_desc": "radio_1 provides clock to concentrator for most devices except MultiTech. For MultiTech set to 0.",
 		"antenna_gain": 1.4,
 		"antenna_gain_desc": "antenna gain, in dBi",
