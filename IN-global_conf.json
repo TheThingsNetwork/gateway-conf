@@ -3,8 +3,8 @@
 		"lorawan_public": true,
 		"clksrc": 1,
 		"clksrc_desc": "radio_1 provides clock to concentrator for most devices except MultiTech. For MultiTech set to 0.",
-		"antenna_gain": 1.4,
-		"antenna_gain_desc": "antenna gain, in dBi",
+		"antenna_gain": 0,
+		"antenna_gain_desc": "antenna gain, in dBi. MultiTech has this as 1.4 by default.",
 		"radio_0": {
 			"enable": true,
 			"type": "SX1257",
