@@ -1,0 +1,22 @@
+band-id: AS923
+channels:
+- frequency: 923200000
+- frequency: 923400000
+- frequency: 923600000
+- frequency: 923800000
+- frequency: 924000000
+- frequency: 924200000
+- frequency: 924400000
+- frequency: 924600000
+lora-std-channel:
+  frequency: 924500000
+  data-rate:
+    index: 6
+fsk-channel:
+  frequency: 924800000
+  data-rate:
+    index: 7
+lbt:
+  rssi-target: -80
+  rssi-offset: -4
+  scan-time: 128

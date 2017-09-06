@@ -1,0 +1,14 @@
+band-id: AU_915_928
+channels:
+- frequency: 916800000
+- frequency: 917000000
+- frequency: 917200000
+- frequency: 917400000
+- frequency: 917600000
+- frequency: 917800000
+- frequency: 918000000
+- frequency: 918200000
+lora-std-channel:
+  frequency: 917500000
+  data-rate:
+    index: 6

@@ -1,0 +1,14 @@
+band-id: US_902_928
+channels:
+- frequency: 903900000
+- frequency: 904100000
+- frequency: 904300000
+- frequency: 904500000
+- frequency: 904700000
+- frequency: 904900000
+- frequency: 905100000
+- frequency: 905300000
+lora-std-channel:
+  frequency: 904600000
+  data-rate:
+    index: 4

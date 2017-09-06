@@ -1,0 +1,5 @@
+band-id: IN_865_867
+channels:
+- frequency: 865062500
+- frequency: 865402500
+- frequency: 865985000

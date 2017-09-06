@@ -1,0 +1,12 @@
+band-id: KR_920_923
+channels:
+- frequency: 922100000
+- frequency: 922300000
+- frequency: 922500000
+- frequency: 922700000
+- frequency: 922900000
+- frequency: 923100000
+- frequency: 923300000
+lbt:
+  rssi-target: -80
+  scan-time: 128
