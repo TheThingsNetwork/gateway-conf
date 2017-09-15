@@ -1,6 +1,8 @@
 # The Things Network Frequency Plans
 
-This repository contains the Things Network's frequency plans, in a YAML format. Those frequency plans are derived from the LoRaWAN regional parameters.
+This repository is an attempt at formatting the Things Network's frequency plans in a YAML format. Those frequency plans are derived from the LoRaWAN regional parameters.
+
+Until now, frequency plans were stored in `global_conf.json` files, that were storing a lot of information relevant for different setups: concentrator-specific information, gateway-specific information, network server-specific information... This repository is an attempt at achieving clear separation of concerns.
 
 ## Format
 
@@ -12,7 +14,7 @@ channels: # List of channels
     index: 3 # Index of the data rate to force within the region's data rates list
 lora-std-channel: # Optional: specify a LoRa standard channel, according to the same specs than the previous frequency plans. Follows the same format than other channels.
   frequency: 863000000
-  data-rate:
+  data-rate: # Which data rate this channel should listen on
     index: 6
 FSK-channel: # Optional: specify a FSK channel, according to the same specs than the previous frequency plans. Follows the same format than other channels.
   frequency: 868800000
