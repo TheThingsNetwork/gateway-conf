@@ -1,32 +1,32 @@
 - id: EU_863_870
   description: Europe 868MHz
   base_freq: 868
-  global_conf: EU_863_870.yml
+  file: EU_863_870.yml
 - id: KR_920_923
   description: Korea 920-923MHz
   base_freq: 915
-  global_conf: KR_920_923.yml
+  file: KR_920_923.yml
 - id: US_902_928
   description: United States 915MHz
   base_freq: 915
-  global_conf: US_902_928.yml
+  file: US_902_928.yml
 - id: AU_915_928
   description: Australia 915MHz
   base_freq: 915
-  global_conf: AU_915_928.yml
+  file: AU_915_928.yml
 - id: AS_920_923
   description: Asia 920-923MHz
   base_freq: 923
-  global_conf: AS1_920_923.yml
+  file: AS1_920_923.yml
 - id: AS_923_925
   description: Asia 923-925MHz
   base_freq: 923
-  global_conf: AS1_923_925.yml
+  file: AS1_923_925.yml
 - id: IN_865_867
   description: India 865-867MHz
   base_freq: 865
-  global_conf: IN_865_867.yml
+  file: IN_865_867.yml
 - id: CN_470_510
   description: China 470-510Mhz
   base_freq: 486
-  global_conf: CN_470_510.yml
+  file: CN_470_510.yml
