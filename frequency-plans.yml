@@ -26,3 +26,7 @@
   description: India 865-867MHz
   base_freq: 865
   global_conf: IN_865_867.yml
+- id: CN_470_510
+  description: China 470-510Mhz
+  base_freq: 486
+  global_conf: CN_470_510.yml
