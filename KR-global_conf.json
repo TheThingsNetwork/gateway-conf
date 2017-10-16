@@ -22,7 +22,7 @@
 		"radio_0": {
 			"enable": true,
 			"type": "SX1257",
-			"freq": 922700000,
+			"freq": 922400000,
 			"rssi_offset": -166.0,
 			"tx_enable": true,
 			"tx_freq_min": 920900000,
@@ -31,7 +31,7 @@
 		"radio_1": {
 			"enable": true,
 			"type": "SX1257",
-			"freq": 922700000,
+			"freq": 923000000,
 			"rssi_offset": -166.0,
 			"tx_enable": false
 		},
@@ -39,43 +39,43 @@
 			"desc": "Lora MAC, 125kHz, all SF, 922.1 MHz",
 			"enable": true,
 			"radio": 0,
-			"if": -600000
+			"if": -300000
 		},
 		"chan_multiSF_1": {
 			"desc": "Lora MAC, 125kHz, all SF, 922.3 MHz",
 			"enable": true,
 			"radio": 0,
-			"if": -400000
+			"if": -100000
 		},
 		"chan_multiSF_2": {
 			"desc": "Lora MAC, 125kHz, all SF, 922.5 MHz",
 			"enable": true,
 			"radio": 0,
-			"if": -200000
+			"if": 100000
 		},
 		"chan_multiSF_3": {
 			"desc": "Lora MAC, 125kHz, all SF, 922.7 MHz",
 			"enable": true,
 			"radio": 0,
-			"if": 0
+			"if": 300000
 		},
 		"chan_multiSF_4": {
 			"desc": "Lora MAC, 125kHz, all SF, 922.9 MHz",
 			"enable": true,
-			"radio": 0,
-			"if": 200000
+			"radio": 1,
+			"if": -100000
 		},
 		"chan_multiSF_5": {
 			"desc": "Lora MAC, 125kHz, all SF, 923.1 MHz",
 			"enable": true,
 			"radio": 1,
-			"if": 400000
+			"if": 100000
 		},
 		"chan_multiSF_6": {
 			"desc": "Lora MAC, 125kHz, all SF, 923.3 MHz",
 			"enable": true,
 			"radio": 1,
-			"if": 600000
+			"if": 300000
 		},
 		"chan_multiSF_7": {
 			"desc": "Disabled",
