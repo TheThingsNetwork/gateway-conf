@@ -20,6 +20,9 @@ AU_915_928:
   global_conf: AU-global_conf.json
 
 CN_470_510:
+  description: China 470-510MHz
+  base_freq: 470
+  global_conf: CN-global_conf.json
 
 AS_923:
   base_freq: 915
