@@ -21,7 +21,7 @@
 - id: AS_923_925
   description: Asia 923-925MHz
   base_freq: 923
-  file: AS1_923_925.yml
+  file: AS2_923_925.yml
 - id: IN_865_867
   description: India 865-867MHz
   base_freq: 865
