@@ -46,3 +46,8 @@ IN_865_867:
   description: India 865-867MHz
   base_freq: 868
   global_conf: IN-global_conf.json
+
+CL_915_928:
+  description: Chile 915MHz
+  base_freq: 915
+  global_conf: CL-global_conf.json
