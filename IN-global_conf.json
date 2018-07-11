@@ -42,50 +42,31 @@
 		},
 		"chan_multiSF_3": {
 			"desc": "disabled",
-			"enable": false,
-			"radio": 0,
-			"if": 32500
+			"enable": false
 		},
 		"chan_multiSF_4": {
 			"desc": "disabled",
-			"enable": false,
-			"radio": 1,
-			"if": -200000
+			"enable": false
 		},
 		"chan_multiSF_5": {
 			"desc": "disabled",
-			"enable": false,
-			"radio": 1,
-			"if": 0
+			"enable": false
 		},
 		"chan_multiSF_6": {
 			"desc": "disabled",
-			"enable": false,
-			"radio": 1,
-			"if": 200000
+			"enable": false
 		},
 		"chan_multiSF_7": {
 			"desc": "disabled",
-			"enable": false,
-			"radio": 1,
-			"if": 400000
+			"enable": false
 		},
 		"chan_Lora_std": {
-			"desc": "Lora MAC, 250kHz, SF7",
-			"enable": false,
-			"radio": 0,
-			"if": 0,
-			"bandwidth": 250000,
-			"spread_factor": 7
+			"desc": "disabled",
+			"enable": false
 		},
 		"chan_FSK": {
-			"desc": "FSK 50kbps",
-			"enable": false,
-			"radio": 1,
-			"if": 300000,
-			"bandwidth": 125000,
-			"datarate": 50000,
-			"freq_deviation": 25000
+			"desc": "disabled",
+			"enable": false
 		},
 		"tx_lut_0": {
 			"desc": "TX gain table, index 0",

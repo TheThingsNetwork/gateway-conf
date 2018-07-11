@@ -78,7 +78,7 @@
 			"spread_factor": 8
 		},
 		"chan_FSK": {
-			"desc": "FSK disabled",
+			"desc": "disabled",
 			"enable": false
 		},
 		"tx_lut_0": {

@@ -78,26 +78,16 @@
 			"if": 300000
 		},
 		"chan_multiSF_7": {
-			"desc": "Disabled",
-			"enable": false,
-			"radio": 1,
-			"if": 0
+			"desc": "disabled",
+			"enable": false
 		},
 		"chan_Lora_std": {
-			"desc": "Lora MAC, 250kHz, SF7, Disabled",
-			"enable": false,
-			"radio": 1,
-			"if": -100000,
-			"bandwidth": 250000,
-			"spread_factor": 7
+			"desc": "disabled",
+			"enable": false
 		},
 		"chan_FSK": {
-			"desc": "FSK 50kbps, Disabled",
-			"enable": false,
-			"radio": 1,
-			"if": 200000,
-			"bandwidth": 125000,
-			"datarate": 50000
+			"desc": "disabled",
+			"enable": false
 		},
 		"tx_lut_0": {
 			"desc": "TX gain table, index 0",
