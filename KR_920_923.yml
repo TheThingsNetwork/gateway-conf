@@ -9,4 +9,5 @@ channels:
 - frequency: 923300000
 lbt:
   rssi-target: -80
+  rssi-offset: -4
   scan-time: 128
