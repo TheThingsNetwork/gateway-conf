@@ -1,13 +1,13 @@
 band-id: EU_863_870
 channels:
+- frequency: 868100000
+- frequency: 868300000
+- frequency: 868500000
 - frequency: 867100000
 - frequency: 867300000
 - frequency: 867500000
 - frequency: 867700000
 - frequency: 867900000
-- frequency: 868100000
-- frequency: 868300000
-- frequency: 868500000
 lora-std-channel:
   frequency: 868300000
   data-rate:
