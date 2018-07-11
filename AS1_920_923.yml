@@ -1,13 +1,13 @@
 band-id: AS_923
 channels:
-- frequency: 922000000
+- frequency: 923200000
+- frequency: 923400000
 - frequency: 922200000
 - frequency: 922400000
 - frequency: 922600000
 - frequency: 922800000
 - frequency: 923000000
-- frequency: 923200000
-- frequency: 923400000
+- frequency: 922000000
 lora-std-channel:
   frequency: 922100000
   data-rate:
