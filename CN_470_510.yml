@@ -1,10 +1,10 @@
 band-id: CN_470_510
 channels:
-- frequency: 486300000
-- frequency: 486500000
-- frequency: 486700000
-- frequency: 486900000
 - frequency: 487100000
 - frequency: 487300000
 - frequency: 487500000
 - frequency: 487700000
+- frequency: 486300000
+- frequency: 486500000
+- frequency: 486700000
+- frequency: 486900000
