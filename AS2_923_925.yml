@@ -1,4 +1,4 @@
-band-id: AS923
+band-id: AS_923
 channels:
 - frequency: 923200000
 - frequency: 923400000
