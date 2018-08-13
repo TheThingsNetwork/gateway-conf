@@ -46,3 +46,8 @@ IN_865_867:
   description: India 865-867MHz
   base_freq: 868
   global_conf: IN-global_conf.json
+
+RU_864_870:
+  description: Russia 864-870MHz
+  base_freq: 868
+  global_conf: RU-global_conf.json
